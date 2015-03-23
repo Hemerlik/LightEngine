@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathTools", "MathTools\MathTools.vcxproj", "{71D5E96F-2FF5-4698-9420-08C5BF43B266}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LightEngine", "LightEngine\LightEngine.vcxproj", "{C8F25C65-F3B3-4133-A5EB-AF0891CE98C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{450B7744-E144-4825-A1CA-57292C231F35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8F25C65-F3B3-4133-A5EB-AF0891CE98C4} = {C8F25C65-F3B3-4133-A5EB-AF0891CE98C4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D5E96F-2FF5-4698-9420-08C5BF43B266}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71D5E96F-2FF5-4698-9420-08C5BF43B266}.Debug|Win32.Build.0 = Debug|Win32
+		{71D5E96F-2FF5-4698-9420-08C5BF43B266}.Release|Win32.ActiveCfg = Release|Win32
+		{71D5E96F-2FF5-4698-9420-08C5BF43B266}.Release|Win32.Build.0 = Release|Win32
+		{C8F25C65-F3B3-4133-A5EB-AF0891CE98C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8F25C65-F3B3-4133-A5EB-AF0891CE98C4}.Debug|Win32.Build.0 = Debug|Win32
+		{C8F25C65-F3B3-4133-A5EB-AF0891CE98C4}.Release|Win32.ActiveCfg = Release|Win32
+		{C8F25C65-F3B3-4133-A5EB-AF0891CE98C4}.Release|Win32.Build.0 = Release|Win32
+		{450B7744-E144-4825-A1CA-57292C231F35}.Debug|Win32.ActiveCfg = Debug|Win32
+		{450B7744-E144-4825-A1CA-57292C231F35}.Debug|Win32.Build.0 = Debug|Win32
+		{450B7744-E144-4825-A1CA-57292C231F35}.Release|Win32.ActiveCfg = Release|Win32
+		{450B7744-E144-4825-A1CA-57292C231F35}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
